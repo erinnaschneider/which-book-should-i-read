@@ -1,7 +1,7 @@
 # Which Book Should I Read?
 
 ## Description
-Need to a resource to find your next read? This application is a search engine tool that shows you the top 10 results from whatever query your heart desires. Search results include the books cover image, as well as the title, author, and description of the synopsis. This application uses the MERN tech stack -- MongoDB database, express.js framework, react frontend, and node.js server. 
+Need to a resource to find your next read? This application is a search engine tool that shows you the top 10 results from whatever query your heart desires. Search results include the books cover image, as well as the title, author, and description of the synopsis. Users can create an account to keep track of their to read list! This application uses the MERN tech stack -- MongoDB database, express.js framework, react frontend, and node.js server. 
 
 ## How to use
 This application is deployed via heroku, so follow the link below and happy reading!
