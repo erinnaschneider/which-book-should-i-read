@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import { useMutation } from '@apollo/react-hooks';
 import { Form, Button, Alert } from 'react-bootstrap';
 
-// import { createUser } from '../utils/API';
 import Auth from '../utils/auth';
+// import { createUser } from '../utils/API';
 import { ADD_USER } from '../utils/mutations';
+ 
 
 const SignupForm = () => {
   // set initial form state
@@ -30,7 +31,7 @@ const SignupForm = () => {
         const { data } = await addUser({
           variables: { ...userFormData}
         });
-  
+        console.log(data)
         Auth.login(data.addUser.token)
   
       } catch (e) {
